@@ -1,0 +1,28 @@
+.cartGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+}
+
+.cart{
+    margin-left: 35px;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info img{
+    width: 250px;
+}
+
+.pGray{
+    margin-top: 20px;
+    margin-bottom: 4px;
+    color: #6e6e6e;
+}
+
+.paragraphs{
+    margin-left: 15px;
+}

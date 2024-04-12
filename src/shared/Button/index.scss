@@ -1,0 +1,56 @@
+@mixin button-size(
+  $padding-y,
+  $padding-x,
+  $font-size,
+  $line-height,
+  $border-radius
+) {
+  padding: $padding-y $padding-x;
+  font-size: $font-size;
+  line-height: $line-height;
+  border-radius: $border-radius;
+}
+
+.a-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  gap: 8px;
+  font-size: 24px !important;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.25s ease;
+  color: var(--first);
+
+  &--md {
+    @include button-size(0.5rem, 1rem, 0.875rem, 1.25rem, 2.5rem);
+  }
+
+  &--sm {
+    @include button-size(0.275rem, 1rem, 0.75rem, 1.25rem, 0.625rem);
+  }
+
+  &--lg {
+    @include button-size(0.75rem, 1.25rem, 1rem, 1rem, 0.75rem);
+  }
+
+  &--fullwidth {
+    width: 100%;
+  }
+
+  &--primary {
+    background: var(--blue-600);
+    border-color: var(--blue-600);
+    color: var(--white);
+  }
+
+  &--secondary {
+    border-color: var(--blue-600);
+    background: var(--white);
+    color: var(--blue-600);
+  }
+
+}

@@ -1,0 +1,15 @@
+.carts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    margin-left: 35px;
+}
+
+.section-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.characterImg{
+    width: 250px;
+}

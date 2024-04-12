@@ -1,9 +1,8 @@
-import './App.css'
-import RickAndMorty from "../api/RickAndMorty.tsx";
+import RouterHeader from "../Router/RouterHeader.tsx";
 function App() {
   return (
     <>
-        <RickAndMorty />
+        <RouterHeader />
     </>
   )
 }
