@@ -1,0 +1,26 @@
+.cartGridEL{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-row-gap:20px;
+}
+
+.episodeAndLocation{
+    background-color: #505050;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.episodeAndLocation p{
+    margin-bottom: 10px;
+}
+
+.episodeAndLocation a{
+    text-decoration: none;
+}
+
+.episodeAndLocation button{
+    margin-top: 20px;
+}

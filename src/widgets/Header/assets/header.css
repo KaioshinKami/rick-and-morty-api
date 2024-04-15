@@ -2,11 +2,26 @@
     margin: 0;
 }
 
+
 .header{
     display: flex;
     justify-content: space-between;
     width: 40%;
-    padding: 20px 30%;
-    background-color: #b7b7b7;
+    padding: 25px 30%;
+    background-color: #efa81e;
     margin-bottom: 40px;
+    font-family: Verdana;
 }
+
+.header a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header a:visited{
+    color: white;
+}
+

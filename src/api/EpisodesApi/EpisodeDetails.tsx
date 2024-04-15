@@ -24,10 +24,10 @@ const EpisodeDetails = () => {
             const characterResponse = await Promise.all(mapCharacters);
             const characterData = characterResponse.map((res) => res.data);
 
-            console.log(charactersUrls)
-            console.log(mapCharacters)
-            console.log(characterResponse)
-            console.log(characterData)
+            // console.log(charactersUrls)
+            // console.log(mapCharacters)
+            // console.log(characterResponse)
+            // console.log(characterData)
 
             setCharacters(characterData);
         } catch (e) {

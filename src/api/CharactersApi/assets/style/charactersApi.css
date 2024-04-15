@@ -23,6 +23,38 @@
     color: #6e6e6e;
 }
 
+.pWhite1{
+    margin-top: 5px;
+    color: white;
+}
+
 .paragraphs{
     margin-left: 15px;
+}
+
+.alive{
+    background-color: forestgreen;
+    display: inline-block;
+    padding: 4px 6px 4px 6px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.dead{
+    background-color: red;
+    display: inline-block;
+    padding: 4px 6px 4px 6px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.unkn{
+    background-color: gray;
+    display: inline-block;
+    padding: 4px 6px 4px 6px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: white;
 }
